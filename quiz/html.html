@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="css.css">
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li> <a class="logo" href="#">freeCodeCamp</a></li>
+                <li> <a class="sp" href="#">HTML/CSS Quiz</a></li>
+                <li><a href="#stu-info">INFO</a></li>
+                <li><a href="#html">HTML</a></li>
+                <li><a href="#css">CSS</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+
+        <section id="stu-info">
+            <h1>Student Info</h1>
+            <hr><br>
+
+            <form action="">
+                <label for="name">Name: <input type="text"></label>
+
+                <label for="email">Email: <input type="email"></label>
+
+                <label for="dob">D.O.B.: <input type="date"></label>
+            </form>
+        </section>
+
+        <section id="html">
+            <h1>HTML</h1>
+            <hr>
+            <p class="lg">Question #1</p>
+            <p>The legend element represents a caption for the content of its parent fieldset element</p>
+
+            <form action="">
+                <label for="first"><input type="radio" name="first"> True</label>
+
+                <label for="first"><input type="radio" name="first"> False</label>
+            </form>
+
+            <p class="lg">Question #2</p>
+            <p>A label element nesting an input element is required to have a for attribute with the same value as the input's id</p>
+
+            <form action="">
+                <label for="first"><input type="radio" name="second"> True</label>
+
+                <label for="first"><input type="radio" name="second"> False</label>
+            </form>
+        </section>
+
+        <section id="css">
+            <h1>CSS</h1>
+            <hr>
+
+            <form action="">
+                <label for="qur">Are you a frontend developer?</label>
+                <select name="que" id="que">
+                    <option value="">Select an option</option>
+                    <option value="Yes">Yes</option>
+                    <option value="No">No</option>
+                </select><br><br>
+
+                <label for="textarea">Do you have any questions:</label>
+                <textarea name="review" id="rvw" cols="35" rows="10"></textarea>
+            </form>
+
+            <button type="button">Submit</button>
+        </section>
+    </div>
+
+    <footer>
+        <address>
+            <a href="#">freeCodeCamp</a><br />
+            San Francisco<br />
+            California<br />
+            USA
+          </address>
+    </footer>
+
+</body>
+
+</html>
